@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-devops",
+  "version": "1.0.0",
+  "description": "Proyecto Dev Ops\r Este es el Proyecto en Dev Ops",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlopezj26-ui/proyecto-devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jlopezj26-ui/proyecto-devops/issues"
+  },
+  "homepage": "https://github.com/jlopezj26-ui/proyecto-devops#readme",
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "pg": "^8.21.0"
+  }
+}
